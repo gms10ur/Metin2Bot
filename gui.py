@@ -205,7 +205,7 @@ class Window(Frame):
 
 root = Tk()
 app = Window(root)
-root.wm_title("Metin2 Metin Botu | 14.12.2021")
+root.wm_title("Metin2 Metin Botu")
 
 windowWidth = root.winfo_reqwidth()
 windowHeight = root.winfo_reqheight()
@@ -215,9 +215,9 @@ root.geometry(f"390x210+{positionRight}+{positionDown}")
 root.resizable(width=False, height=False)
 def callback(url):
     webbrowser.open_new(url)
-me = Label(root, text="Developer: yazilimfuryasi.com | @yazilimfuryasi", fg="#6E7371",cursor="hand2",font="Verdana 7 bold")
+me = Label(root, text="gms10ur | Myrista Corp.", fg="#6E7371",cursor="hand2",font="Verdana 7 bold")
 me.pack(side=BOTTOM)
-adres = "https://www.instagram.com/yazilimfuryasi/"
+adres = "https://github.com/gms10ur/"
 me.bind("<Button-1>", lambda e: callback(adres))
 
 root.mainloop()
