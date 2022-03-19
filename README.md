@@ -1,7 +1,5 @@
 # Metin 2 Botu - (OpenCV)
 
-![image](https://user-images.githubusercontent.com/84662757/155882729-74331959-1705-4e7c-8a9a-bc3161d6ee81.png)
-
 Bu yazılım, Metin 2 oyunu için otomatik metin kesme botu olarak tasarlanmış bir denemedir.
 
 # Nasıl Çalıştırırım?
